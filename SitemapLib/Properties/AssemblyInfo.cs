@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("SitemapTest")]
+[assembly: AssemblyTitle("SitemapLib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SitemapTest")]
+[assembly: AssemblyProduct("SitemapLib")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("d549bbd1-6957-43ad-b29e-6a8039a09484")]
+[assembly: Guid("59a9ad1f-3da7-42c4-9ee9-f7158a55ff6f")]
 
 // Version information for an assembly consists of the following four values:
 //
