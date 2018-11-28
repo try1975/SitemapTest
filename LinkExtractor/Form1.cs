@@ -19,7 +19,7 @@ namespace LinkExtractor
             var path = Path.GetFullPath(tbFileName.Text);
             if (File.Exists(path))
             {
-                MessageBox.Show($"Файл {path} уже есть. Возможна запись только в новый файл.");
+                MessageBox.Show($@"Файл {path} уже есть. Возможна запись только в новый файл.");
                 return;
             }
             btnStart.Enabled = false;
@@ -50,7 +50,7 @@ namespace LinkExtractor
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            toolStripStatusLabel1.Text = $"{e.UserState}";
+            toolStripStatusLabel1.Text = $@"{e.UserState}";
             btnStart.Enabled = !bw.IsBusy;
         }
 
